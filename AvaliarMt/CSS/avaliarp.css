@@ -1,0 +1,311 @@
+*{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    padding: 20px;
+    background: rgb(47,104,187);
+    background: linear-gradient(90deg, rgba(47,104,187,1) 0%, rgba(33,109,221,1) 31%, rgba(23,92,175,1) 100%);
+}
+
+footer{
+    background: rgb(47,104,187);
+    background: linear-gradient(90deg, rgba(47,104,187,1) 0%, rgba(33,109,221,1) 31%, rgba(23,92,175,1) 100%);
+    height: 20px;
+    text-align: center;
+    padding: 30px;
+    font-family: helvetica;
+    color: aliceblue;
+    clear: both;
+
+}
+
+.fixo{
+    resize: none;
+}
+
+#divForm{
+    margin: 1% 34% 11%;
+    background-color: aliceblue;
+    float: left;
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 4px;
+    padding: 30px;
+    width: 550px;
+    height: 327px;
+}
+
+#texto{
+    margin-top: 155px;
+}
+
+#linha{
+    margin-left: 10px;
+}
+
+#divFiltro{
+    margin-bottom: 15px;
+    width: 420px;
+    
+}
+
+#labelFiltro{
+    float: left;
+    margin: 6px 0;
+}
+
+#divBtn{
+    text-align: right;
+    width: 340px;
+}
+
+#avaliarM{
+    border-radius: 0 4px 4px 0;
+    height: 30px;
+    padding: 0 10px;
+    background-color: cornflowerblue;
+    border: 1px solid rgb(48, 132, 206);
+}
+
+#avaliarP{
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: rgba(89, 99, 119, 0.432);
+    color: rgb(94, 94, 94);
+    border: 1px solid rgb(48, 132, 206);
+}
+
+#avaliarM:hover{
+    background-color: rgb(17, 94, 236);
+    color: white;
+    box-shadow: 2px 2px rgb(44, 14, 175);
+}
+
+#divNome{
+    margin-bottom: 15px;
+    width: 420px;
+}
+
+#inputNome{
+    margin-left: 50px;
+    width: 300px;
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 4px 0 0 4px;
+    padding-left: 2px;
+    height: 20px;
+    border-right: transparent;
+}
+
+#btnNome{
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 0 4px 4px 0;
+    height: 22.1px;
+    width: 21px;
+    padding: 3px;
+    border-left: transparent;
+    margin-top: 0.5px;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+#btnNome:hover{
+    color: cornflowerblue;
+}
+
+
+
+#divImg{
+    float: right;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;    
+}
+
+#imgM{
+    
+    margin-left: -110px;
+    margin-right: 180px;
+    border-radius: 6px;
+    margin-top: 5px;
+  
+}
+
+
+#imgM2{
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 6px;
+    margin-top: 20px;
+    
+}
+
+
+#divMateria{
+    width: 92px;
+    height: 20px;
+    float: left;
+    margin-bottom: 15px;
+    color: rgba(94, 94, 94, 0.527);
+}
+
+
+#labelRadio11{
+    padding: 0 10px; 
+    padding-left: 17px;  
+    border-radius: 4px 0 0 4px; 
+    border: 1px solid rgb(48, 132, 206);
+    text-align: center;
+    height: 20px;
+    background-color: rgba(100, 148, 237, 0.616);
+    color: black;
+}
+
+#labelRadio11:hover{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 0 1px 0 1px rgb(44, 14, 175);
+}
+
+#labelRadio11:focus{
+        background-color: rgb(0, 89, 255);
+        color: white;
+        box-shadow: 2px 2px rgb(60, 30, 194);
+}
+
+#labelRadio21{
+    padding: 0 10px; 
+    padding-left: 17px;   
+    border: 1px solid rgb(48, 132, 206);
+    text-align: center;
+    height: 20px;
+    background-color: rgba(100, 148, 237, 0.616);
+    color: black;
+}
+
+#labelRadio21:hover{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 2px 2px rgb(44, 14, 175);
+}
+
+#labelRadio31{
+    padding: 0 10px; 
+    padding-left: 17px;  
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgb(48, 132, 206);
+    text-align: center;
+    height: 20px;
+    background-color: rgba(100, 148, 237, 0.616);
+    color: black;
+}
+
+#labelRadio31:hover{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(44, 14, 175);
+}
+
+#divComent{
+    width: 330px;
+    height: 200px;
+    float: left;
+    margin-top: 45px;
+}
+
+#labelComent{
+    width: 120px;
+    float: left;
+    text-align: left;
+    margin-top: 7px;
+}
+
+#labelAnon{
+    margin-left: 40px;
+} 
+
+#checkboxAnon{
+    margin: 0 10px;
+}
+
+#txtArea{ 
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 4px;
+}
+
+#divNota{
+    width: 160px;
+    float: right;
+    height: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#labelNota{
+    margin-top: -10px;
+    width: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+#divStar{
+    margin-top: 10px;
+    border: 2px solid rgba(48, 132, 206, 0.384);
+    border-radius: 4px;
+}
+
+#divBts{
+    margin-top: 80px;
+    margin-left: 350px;
+}
+
+#enviarEl{
+    margin-top: -80px;
+    margin-left: 40px;
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 4px;
+    height: 50px;
+    width: 80px;
+    background-color: cornflowerblue;
+}
+
+#enviarEl:hover{
+    background-color: rgb(17, 94, 236);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(44, 14, 175);
+}
+
+#cancelarEl{
+    margin-top: -50px;
+    border: 1px solid rgb(48, 132, 206);
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    padding: 2px 5px;
+    background-color: rgb(252, 161, 130);
+}
+
+#cancelarEl:hover{
+    background-color: rgba(255, 17, 0, 0.76);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(44, 14, 175);
+}
+
+/* #enviarEl:focus{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    box-shadow: 2px 2px rgb(60, 30, 194);
+} */
